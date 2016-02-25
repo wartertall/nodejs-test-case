@@ -86,11 +86,4 @@ app.use( function( err, req, res, next ) {
     } );
 } );
 
-
-// start app
-var port = (process.env.PORT || config.listenPort || 3000);
-app.listen(port);
-
-console.log('\n\nWelcome to Stacked!\n\nPlease go to http://localhost:' + port + '\n\n');
-
 module.exports = app;
