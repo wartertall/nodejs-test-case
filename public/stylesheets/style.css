@@ -1,8 +1,16 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.form-group.required >label:first-child:after {
+	content:"*";
+	color:red;
+}
+form .error{
+	color:red;
+	font-weight: normal;
 }

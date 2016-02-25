@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-test-case",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wartertall/nodejs-test-case",
+  "authors": [
+    "ThuyCao <wartertall@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-validation": "~1.15.0",
+    "bootstrap": "~3.3.6"
+  }
+}

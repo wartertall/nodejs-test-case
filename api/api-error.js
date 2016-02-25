@@ -47,6 +47,12 @@ RestError.Deprecated = buildConstructor({
     name: 'Bad Request'
 });
 
+RestError.Unauthorized = buildConstructor({
+    defaultMessage: 'Unauthorized',
+    status: 401,
+    name: 'Unauthorized'
+});
+
 RestError.BadSyntax = buildConstructor({
     defaultMessage: 'The body of this request was invalid and could not be parsed',
     status: 400,
